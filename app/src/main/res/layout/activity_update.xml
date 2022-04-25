@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="UpdateVaccineActivity">
+
+
+    <EditText
+        android:id="@+id/idEdtPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter person Name"
+        android:minHeight="48dp" />
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/idEdtVaccineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter vaccine Name"
+        android:minHeight="48dp" />
+
+    <!--edit text to enter course duration-->
+
+    <!--edit text to display course tracks-->
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtVaccineProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter vaccine provider"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter vaccine shots"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter vaccine status"
+        android:minHeight="48dp" />
+
+
+    <TextView
+        android:id="@+id/idTVVaccineCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Link to vaccine Card "
+        android:minHeight="48dp"
+        android:textSize="10sp" />
+
+    <!--button for updating our course-->
+    <Button
+        android:id="@+id/idBtnUpdateVaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update vaccine"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete Vaccine"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+

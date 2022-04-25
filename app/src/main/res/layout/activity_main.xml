@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/idEdtPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:hint="Enter Your Full Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="86dp"
+        android:hint="Enter Vaccine Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="151dp"
+        android:hint="Enter Vaccine shot ammount"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="2dp"
+        android:hint="Enter Vaccine Provider"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/idEdtVaccineStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="271dp"
+        android:hint="Enter Vaccine Status"
+        android:minHeight="48dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/idBtnAddVaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="78dp"
+        android:text="Add Vaccine"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnReadVaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/read_all_vaccines"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnUploadCard"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/idBtnAddVaccine"
+        android:layout_marginBottom="5dp"
+        android:text="Upload Vaccine Card" />
+
+    <ImageView
+        android:id="@+id/ivBackdrop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="182dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+</RelativeLayout>

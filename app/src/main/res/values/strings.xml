@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">490_Senior_Project</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+    <string name="read_all_vaccines">Read All Vaccines</string>
+</resources>
