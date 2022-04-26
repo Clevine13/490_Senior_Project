@@ -2,6 +2,7 @@
 COSC 490 Vaccine App 
 
 ACM Word Doc for MyVaxPass
+
  
  
 Carl Levine Jr
@@ -75,6 +76,23 @@ This button would allow for the user to delete any selected vaccine card they ha
 
 MYSQL Database:
 This is where all the user vaccine card information will be stored and used to display for the view screen. 
+
+HOW TO RUN/Install 
+1) This project requires the use Android studio/ may also be able to use other IDE's with virtual androids but Android stuido is prefered. 
+2) Fork and clone this project as you would any other github project
+3) once cloned into your IDE if virtual android settings do not carry over it is recommened you use the Pixel 3 with API level 29 can go higher on API levels but 29 was the one currently in use for development
+4) ensure that your gradle build is up to date with appropirate SDK levels and Java is also installed. These should not be a problem since you are forking the project but if that is the case make sure your Gradle App build is excatly how it is shown on github. 
+5) Run the program from the "activity_login" class to ensure correct flow of application.
+6) if succecfully ran you should be dirrected to the login screen.
+7) if gradle build fails or application fails to start this is a regualar occurence in my experience possible fixes are Rerunning the application,uninstalling application and rerunning, wiping the data from virual machine and rerunning data, close android studio and then open again and run
+8) once login screen is reached you have two login options on the scroll wheel under the password segment there is a "user" or "admin" selection if you select user the current Username is "user" and the Password is "user" if you select admin the the Username and Password is "admin" TYPE THESE IN EXACTLY
+9) if logged in as user you can then proceed to enter in the vaccine information as you see fit. NOTE if you do not enter in all the text fields you will be met with a toast saying you need information for each field.
+10) next you then can optionally select to upload a vaccine card photo or not. if you choose to you have the option to choose from google drive or google photos. 
+11) Once vaccine information is entered and photo is or isnt added you can then hit the add vaccine button which will add the vaccine to the database.
+12) once you hit the add vaccine button you can then select the view vaccine button. NOTE if you want to just view the vaccines you can also select this button without entering in new vaccine information. Selecting this button will allow you to view all the vaccine card information you have uploaded as a user
+13) to log in as an admin re-run the application and then procede to login as an admin follwing Step 8. 
+14) Logging in as an admin will direct you to the view vaccine page you can then select any vaccine card that has been uploaded. This will then send you to update the vaccine card information where the admin will be allowed to "accept" or "deny" the status of the users vaccination. after this you can then select the update vaccine button or the delete vaccine buttton if you so choose. 
+15) once this is done you can then relogin as a user and go back to the view vaccine page and you will see that the update of the status of the vaccine will show up on the user side.
 
 
 Setup: 
