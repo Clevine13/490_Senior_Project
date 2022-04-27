@@ -26,13 +26,16 @@ This project is an android application that will allow the user to create and re
 All material on each page should fit within a rectangle of 18 × 23.5 cm (7" × 9.25"), centered on the page, beginning 1.9 cm (0.75") from the top of the page and ending with 2.54 cm (1") from the bottom.  The right and left margins should be 1.9 cm (.75").   
 The text should be in two 8.45 cm (3.33") columns with a .83 cm (.33") gutter.
 3.	TYPESET TEXT
+
 3.1	Normal or Body Text
  Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.
 Conference’10, Month 4 2022, Baltimore, Maryland, United States.
 Copyright 2022 ACM 1-58113-000-0/00/0010 …$15.00.
 Please use a 9-point Times Roman font, or other Roman font with serifs, as close as possible in appearance to Times Roman in which these guidelines have been set. The goal is to have a 9-point text, as you see here. Please use sans-serif or non-proportional fonts only for special purposes, such as distinguishing source code text. If Times Roman is not available, try the font named Computer Modern Roman. On a Macintosh, use the font named Times.  Right margins should be justified, not ragged.
+
 3.2	First Page Copyright Notice
 Please leave 3.81 cm (1.5") of blank text box at the bottom of the left column of the first page for the copyright notice.
+
 3.3	Subsequent Pages
 For pages other than the first page, start at the top of the page, and continue in double-column format.  The two columns on the last page should be as close to equal length as possible.
 
@@ -44,7 +47,9 @@ Captions should be Times New Roman 9-point bold.  They should be numbered (e.g.,
 The heading of a section should be in Times New Roman 12-point bold in all-capitals flush left with an additional 6-points of white space above the section head.  Sections and subsequent sub- sections should be numbered and flush left. For a section head and a subsection head together (such as Section 3 and subsection 3.1), use no additional space above the subsection head.
 4.1	ACKNOWLEDGMENTS
 Our thanks to ACM SIGCHI for allowing us to modify templates they had developed.
+
 5.	REFERENCES
+
 5.1	References
 Codeplayon. 2018. Android Image UpLoad to server From Camera and gallery - Codeplayon. [online] Available at: <https://www.codeplayon.com/2018/11/android-image-upload-to-server-from-camera-and-gallery/> [Accessed 20 April 2022].
 GeeksforGeeks. 2020. How to Read Data from SQLite Database in Android? - GeeksforGeeks. [online] Available at: <https://www.geeksforgeeks.org/how-to-read-data-from-sqlite-database-in-android/?ref=lbp> [Accessed 20 April 2022].
@@ -78,9 +83,9 @@ MYSQL Database:
 This is where all the user vaccine card information will be stored and used to display for the view screen. 
 
 HOW TO RUN/Install 
-1) This project requires the use Android studio/ may also be able to use other IDE's with virtual androids but Android stuido is prefered. 
+1) This project requires the use of Android studio/ may also be able to use other IDE's with virtual androids but Android stuido is prefered. 
 2) Fork and clone this project as you would any other github project
-3) once cloned into your IDE if virtual android settings do not carry over it is recommened you use the Pixel 3 with API level 29 can go higher on API levels but 29 was the one currently in use for development
+3) once cloned into your IDE if virtual android settings do not carry over it is recommened you use the Pixel 3 with API level 29 you can go higher on API levels but 29 was the one currently in use for development
 4) ensure that your gradle build is up to date with appropirate SDK levels and Java is also installed. These should not be a problem since you are forking the project but if that is the case make sure your Gradle App build is excatly how it is shown on github. 
 5) Run the program from the "activity_login" class to ensure correct flow of application.
 6) if succecfully ran you should be dirrected to the login screen.
@@ -89,9 +94,9 @@ HOW TO RUN/Install
 9) if logged in as user you can then proceed to enter in the vaccine information as you see fit. NOTE if you do not enter in all the text fields you will be met with a toast saying you need information for each field.
 10) next you then can optionally select to upload a vaccine card photo or not. if you choose to you have the option to choose from google drive or google photos. 
 11) Once vaccine information is entered and photo is or isnt added you can then hit the add vaccine button which will add the vaccine to the database.
-12) once you hit the add vaccine button you can then select the view vaccine button. NOTE if you want to just view the vaccines you can also select this button without entering in new vaccine information. Selecting this button will allow you to view all the vaccine card information you have uploaded as a user
+12) once you hit the "add vaccine" button you can then select the "view vaccine" button. NOTE if you want to just view the vaccines you can also select this button without entering in new vaccine information. Selecting this button will allow you to view all the vaccine card information you have uploaded as a user
 13) to log in as an admin re-run the application and then procede to login as an admin follwing Step 8. 
-14) Logging in as an admin will direct you to the view vaccine page you can then select any vaccine card that has been uploaded. This will then send you to update the vaccine card information where the admin will be allowed to "accept" or "deny" the status of the users vaccination. after this you can then select the update vaccine button or the delete vaccine buttton if you so choose. 
+14) Logging in as an admin will direct you to the "view vaccine" page where you can then select any vaccine card that has been uploaded. This will then send you to update the vaccine card information where the admin will be allowed to "accept" or "deny" the status of the users vaccination. after this you can then select the update vaccine button or the delete vaccine buttton if you so choose. 
 15) once this is done you can then relogin as a user and go back to the view vaccine page and you will see that the update of the status of the vaccine will show up on the user side.
 
 
